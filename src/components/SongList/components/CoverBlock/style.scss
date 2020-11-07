@@ -1,0 +1,38 @@
+.CoverBlock {
+  width: 120px;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  .cover{
+    .box {
+      width: 120px;
+      height: 120px;
+      display: flex;
+      border-radius: 5px;
+      align-items: center;
+      justify-content: center;
+      background-color: #eeeeee;
+      &.darkBox {
+        background-color: #aaaaaa;
+      }
+      &:hover {
+        background-color: #cccccc;
+        .triangle {
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 12.5px 0 12.5px 25px;
+          border-color: transparent transparent transparent #ffffff;
+        }
+        .pause {
+          width: 25px;
+          height: 25px;
+          border-style: double;
+          border-color: #fff;
+          transform: translateX(25%);
+          border-width: 0px 0px 0px 25px;
+        }
+      }
+    }
+  }
+}

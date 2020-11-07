@@ -1,0 +1,24 @@
+.InfoBlock {
+  display: flex;
+  margin-top: 5px;
+  font-size: 12px;
+  .star {
+    width: 25px;
+    color: #ccc;
+    font-size: 24px;
+    text-align: center;
+    &.full {
+      color: orange;
+      &:after { content: '★'; }
+    }
+    &:after {
+      content: '☆';
+    }
+  }
+  .info {
+    color: #999999;
+    .song {
+      font-weight: bold;
+    }
+  }
+}

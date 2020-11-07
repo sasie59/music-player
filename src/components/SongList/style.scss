@@ -1,0 +1,9 @@
+.SongList {
+  padding: 30px 30px 0 30px;
+  display: flex;
+  height: 616px;
+  flex-wrap: wrap;
+  overflow: auto;
+  box-sizing: border-box;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+}
+.musicPlayer_1 {
+  width: 500px;
+  height: 750px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-sizing: border-box;
+  flex-direction: column;
+  background-color: #ffffff;
+}
