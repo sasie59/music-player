@@ -17,9 +17,9 @@ import {
   setLoopMode,
   appendSecond,
   setCurrentPlaying,
-  } from "musicPlayer/actions";
+  } from "actions";
 
-  import  isEndAndCheckNext  from 'musicPlayer_1/tools';
+  import  isEndAndCheckNext  from 'tools';
 
 const obj = {
   NONE: "None",

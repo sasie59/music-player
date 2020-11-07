@@ -1,6 +1,6 @@
 import {
   IS_LIKE
-} from 'musicPlayer_1/actions/songList';
+} from 'actions/songList';
 
 const initial = [
   {id: 1, 'singer': '五月天', 'seconds': 3, 'isLike': true, 'name': '溫柔' },

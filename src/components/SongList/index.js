@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {
   isLike
-} from 'musicPlayer_1/actions';
+} from 'actions';
 
 import CoverBlock from './components/CoverBlock';
 export class SongList extends Component {

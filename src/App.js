@@ -6,19 +6,6 @@ import reducers from "reducers";
 import SongList from 'components/SongList';
 import StatusBlock from 'components/StatusBlock';
 import './style.scss';
-import {
-  // setLoopMode,
-  // pause,
-  // play,
-  // resume,
-  // stop,
-  // isLike,
-  // appendSecond,
-  // setCurrentPlaying,
-  // NONE,
-  // RANDOM,
-  // ALL_PLAY,
-} from "musicPlayer_1/actions";
 
 const store = createStore(
   reducers,

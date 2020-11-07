@@ -5,7 +5,7 @@ import {
   RESUME,
   APPEND_SECOND,
   SET_CURRENT_PLAYING,
-} from "musicPlayer_1/actions";
+} from "actions";
 
 export default function status(state = { action: STOP }, action) {
   switch (action.type) {

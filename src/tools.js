@@ -2,7 +2,7 @@ import {
   NONE,
   RANDOM,
   ALL_PLAY, 
-  } from "musicPlayer_1/actions";
+  } from "actions";
   
   
 

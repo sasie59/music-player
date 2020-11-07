@@ -12,9 +12,9 @@ import {
   resume,
   appendSecond,
   setCurrentPlaying
-} from 'musicPlayer_1/actions';
+} from 'actions';
 
-import isEndAndCheckNext from 'musicPlayer_1/tools';
+import isEndAndCheckNext from 'tools';
 
 import InfoBlock from './components/InfoBlock'
 export class CoverBlock extends Component {
