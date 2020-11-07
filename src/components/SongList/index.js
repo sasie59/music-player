@@ -5,6 +5,7 @@ import {
 } from 'actions';
 
 import CoverBlock from './components/CoverBlock';
+import './style.scss';
 export class SongList extends Component {
 
   handleClick = (index) => {

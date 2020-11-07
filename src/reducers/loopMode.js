@@ -1,7 +1,7 @@
 import {
   NONE,
   SET_LOOP_MODE
-} from '../actions/loopMode';
+} from 'actions/loopMode';
 
 export default function loopMode(state = NONE, action) {
   switch(action.type) {
