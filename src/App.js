@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 
-import reducers from "musicPlayer_1/reducers";
-import SongList from 'musicPlayer_1/components/SongList';
-import StatusBlock from 'musicPlayer_1/components/StatusBlock';
+import reducers from "reducers";
+import SongList from 'components/SongList';
+import StatusBlock from 'components/StatusBlock';
 import './style.scss';
 import {
   // setLoopMode,
